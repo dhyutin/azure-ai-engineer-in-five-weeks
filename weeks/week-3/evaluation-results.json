@@ -1,0 +1,85 @@
+{
+    "groundedness": {
+        "0": {
+            "groundedness": 5.0,
+            "gpt_groundedness": 5.0,
+            "groundedness_reason": "The RESPONSE is fully grounded in the CONTEXT, providing a comprehensive and accurate list of benefits related to the PerksPlus program, which directly answers the QUERY."
+        },
+        "1": {
+            "groundedness": 2.0,
+            "gpt_groundedness": 2.0,
+            "groundedness_reason": "The response is related to the topic of buildings in New York but does not answer the specific query about the number of windows. It provides general information about the complexity of estimating the number of windows without giving a direct answer, which is why it receives a score of 2."
+        },
+        "2": {
+            "groundedness": 2.0,
+            "gpt_groundedness": 2.0,
+            "groundedness_reason": "The RESPONSE is relevant to the topic of evaluations but does not reference any specific information from the CONTEXT, which is about documents that do not contain details on the evaluation process. Thus, it does not fully address the QUERY based on the CONTEXT."
+        }
+    },
+    "query": {
+        "0": "What are the benefits of the PerksPlus program?",
+        "1": "How many windows are there in new york?",
+        "2": "How will I be evaluated each year? "
+    },
+    "response": {
+        "0": "The PerksPlus program offers a variety of benefits aimed at enhancing the health and wellness of employees at Contoso Electronics. These benefits typically include:\n\n1. **Health and Wellness Reimbursements**: Employees can receive reimbursements for various health-related expenses, such as gym memberships, fitness classes, and wellness programs.\n\n2. **Flexible Spending Accounts**: Employees may have access to accounts that allow them to set aside pre-tax dollars for qualifying health expenses.\n\n3. **Mental Health Resources**: The program can include access to mental health services, counseling, and wellness workshops.\n\n4. **Health Screenings and Assessments**: Employees might be encouraged or offered reimbursements for regular health check-ups and screenings.\n\n5. **Work-Life Balance Initiatives**: The program may promote initiatives that support a healthy work-life balance, like remote work options and flexible scheduling.\n\nThese benefits are designed to support employee wellbeing, improve job satisfaction, and enhance overall productivity.",
+        "1": "I don't have the specific number of windows in New York, as it would require extensive architectural and urban data analysis. However, it is estimated that there are millions of buildings in the city, each containing numerous windows. The actual count would depend on factors such as the number of residential, commercial, and historical buildings.",
+        "2": "You will typically be evaluated each year through a performance review process. This process may include several components, such as self-assessments, manager assessments, and feedback from peers or colleagues. The evaluation criteria may focus on various factors, including your achievement of goals, quality of work, teamwork, and contribution to the organization. The specific method and criteria for evaluation can vary by organization, so it is advisable to refer to your employee handbook or speak with your HR representative for the details relevant to your company."
+    },
+    "context": {
+        "0": [
+            [
+                {
+                    "id": "UGVya3NQbHVzLnBkZjE=",
+                    "content": "Title: PerksPlus.pdfThis document contains information generated using a language model (Azure OpenAI ). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                },
+                {
+                    "id": "UGVya3NQbHVzLnBkZjA=",
+                    "content": "Title: PerksPlus.pdf \n \n \nPerksPlus Health and Wellness  \nReimbursement Program for \nContoso Electronics Employees  \n \n \n \n \n \n  \n",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                }
+            ]
+        ],
+        "1": [
+            [
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                },
+                {
+                    "id": "cm9sZV9saWJyYXJ5LnBkZjE=",
+                    "content": "Title: role_library.pdfThis document contains information generated using a language model (Azure OpenAI). The \ninformation contained in this document is only for demonstration purposes and does not \nreflect the opinions or beliefs of Microsoft. Microsoft makes no representations or \nwarranties of any kind, express or implied, about the completeness, accuracy, reliability, \nsuitability or availability with respect to the information contained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "role_library.pdf",
+                    "title": "",
+                    "url": "role_library.pdf"
+                }
+            ]
+        ],
+        "2": [
+            [
+                {
+                    "id": "ZW1wbG95ZWVfaGFuZGJvb2sgKDIpLnBkZjE=",
+                    "content": "Title: employee_handbook (2).pdfThis document contains information generated using a language model (Azure OpenAI). The \ninformation contained in this document is only for demonstration purposes and does not \nreflect the opinions or beliefs of Microsoft. Microsoft makes no representations or \nwarranties of any kind, express or implied, about the completeness, accuracy, reliability, \nsuitability or availability with respect to the information contained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "employee_handbook (2).pdf",
+                    "title": "",
+                    "url": "employee_handbook (2).pdf"
+                },
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                }
+            ]
+        ]
+    }
+}
