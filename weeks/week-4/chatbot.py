@@ -366,12 +366,13 @@ async def chatbot_logic(query: str) -> str:
         if cached_response:
             duration = time.time() - start_time
             references_str = "\n\n**References:**\n"
-            seen_sources = set()
-            for i, src in enumerate(cached_sources, start=1):
-                # Only list each source once
-                if src not in seen_sources:
-                    seen_sources.add(src)
-                    references_str += f"{i}. {src}\n"
+            if cached_sources:
+                seen_sources = set()
+                for i, src in enumerate(cached_sources, start=1):
+                    # Only list each source once
+                    if src not in seen_sources:
+                        seen_sources.add(src)
+                        references_str += f"{i}. {src}\n"
 
             return (
                 f"🗄️ **(Cached Response in {duration:.2f}s)**\n\n{cached_response}"
